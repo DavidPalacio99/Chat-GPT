@@ -17,7 +17,7 @@ const ChatInput = ({ chatId }: Props) => {
 
   // useSWR to get model
 
-  const model = "davinci";
+  const model = "text-davinci-003";
 
   const sendMessage = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
