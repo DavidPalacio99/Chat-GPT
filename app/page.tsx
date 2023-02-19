@@ -7,10 +7,10 @@ import {
 
 const Homepage = () => {
   return (
-    <div className="text-white flex flex-col items-center justify-center h-screen px-2">
-      <h1 className="text-5xl font-bold mb-20">ChatGPT</h1>
-      <div className="flex space-x-2 text-center">
-        <div>
+    <div className=" text-white flex flex-col items-center justify-center sm:h-screen px-2 overflow-y-auto pb-5">
+      <h1 className="mb-10 text-5xl font-bold md:mb-20 mt-5">ChatGPT</h1>
+      <div className="flex flex-col sm:flex-row space-x-2 text-center  ">
+        <div className="mt-8">
           <div className="flex flex-col items-center justify-center mb-5">
             <SunIcon className="h-8 w-8" />
             <h2>Examples</h2>
@@ -25,7 +25,7 @@ const Homepage = () => {
           </div>
         </div>
 
-        <div>
+        <div className="mt-8">
           <div className="flex flex-col items-center justify-center mb-5">
             <BoltIcon className="h-8 w-8" />
             <h2>Capabilities</h2>
@@ -42,7 +42,7 @@ const Homepage = () => {
           </div>
         </div>
 
-        <div>
+        <div className="mt-8">
           <div className="flex flex-col items-center justify-center mb-5">
             <ExclamationTriangleIcon className="h-8 w-8" />
             <h2>Limitations</h2>
