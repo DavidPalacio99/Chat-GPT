@@ -16,7 +16,7 @@ const Login = () => {
       />
       <button
         onClick={() => {
-          signIn("google");
+          signIn();
         }}
         className="text-white font-bold text-3xl animate-pulse"
       >
