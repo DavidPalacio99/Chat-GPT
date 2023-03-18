@@ -1,7 +1,6 @@
 "use client";
 import { signIn } from "next-auth/react";
 import Image from "next/image";
-import chatgpt from "../assets/chatgpt.png";
 
 import React from "react";
 

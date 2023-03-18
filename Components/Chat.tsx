@@ -7,7 +7,7 @@ import { collection, orderBy } from "firebase/firestore";
 import { db } from "../firebase";
 import { query } from "firebase/firestore";
 import Message from "./Message";
-import { ArrowDownCircleIcon, XMarkIcon } from "@heroicons/react/24/solid";
+import { ArrowDownCircleIcon } from "@heroicons/react/24/solid";
 
 type Props = {
   chatId: string;
